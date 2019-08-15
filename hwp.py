@@ -10,12 +10,8 @@ from sklearn import metrics
 import time
 
 feature_num = 14
-#cache_size = 327680 # 50 GB/Node
 cache_size = 655360 # 100 GB/Node
-#cache_size = 1310720 # 200 GB/Node
-#memory_size = 26214 # 4 GB/Node
 memory_size = 13107 # 2 GB/Node
-#memory_size = 6554 # 1 GB/Node
 
 TP = 0
 FP = 0
